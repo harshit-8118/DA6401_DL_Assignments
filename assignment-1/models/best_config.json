@@ -1,0 +1,16 @@
+{
+  "num_neurons": [
+    128,
+    64,
+    32
+  ],
+  "activation": "relu",
+  "weight_init": "xavier",
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "loss": "cross_entropy",
+  "best_val_f1": 0.9774490595211709,
+  "best_epoch": 27,
+  "dataset": "mnist"
+}
