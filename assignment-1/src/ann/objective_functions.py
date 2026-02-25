@@ -19,7 +19,7 @@ def mse_derivative(y_true, y_pred):
 def cross_entropy(y_true, y_pred):
     eps = 1e-15
     probs = np.clip(y_pred, eps, 1 - eps)
-    loss = -np.mean(np.sum(y_true * np.log(y_pred), axis=1))
+    loss = -np.mean(np.sum(y_true * np.log(probs), axis=1))
     return loss
 
 def cross_entropy_derivative(y_true, y_pred):

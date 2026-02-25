@@ -5,7 +5,7 @@ Handles forward and backward propagation loops
 from .neural_layer import NeuralLayer
 from .objective_functions import OBJECTIVE
 from .activations import ACTIVATIONS
-from .optimizers import OPTIMIZERS, NAG
+from .optimizers import OPTIMIZERS
 import numpy as np
 import json
 import os
